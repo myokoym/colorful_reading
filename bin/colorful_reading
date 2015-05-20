@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "colorful_reading/command"
+
+ColorfulReading::Command.run
