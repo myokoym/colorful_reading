@@ -2,7 +2,7 @@
 
 Colorize sentences by part of speech in English for CLI.
 
-![ColorfulReading](http://myokoym.net/public/colorful_reading.png)
+![ColorfulReading](http://myokoym.net/public/colorful_reading-alice01.png)
 
 ## Thanks
 
