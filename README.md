@@ -4,6 +4,11 @@ Colorize sentences by part of speech in English for CLI.
 
 ![ColorfulReading](http://myokoym.net/public/colorful_reading.png)
 
+## Thanks
+
+* [yohasebe/engtagger](https://github.com/yohasebe/engtagger)
+* [fazibear/colorize](https://github.com/fazibear/colorize)
+
 ## Installation
 
     $ gem install colorful_reading
