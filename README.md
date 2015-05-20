@@ -23,6 +23,8 @@ or
 
 ## License
 
-MIT License.
+Copyright (c) 2015 Masafumi Yokoyama `<myokoym@gmail.com>`
+
+GPLv2 or later.
 
 See [LICENSE.txt](https://github.com/myokoym/colorful_reading/blob/master/LICENSE.txt) for details.

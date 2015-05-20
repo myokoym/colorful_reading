@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Colorize sentences by part of speech in English for CLI."
   spec.description   = spec.summary
   spec.homepage      = "https://github.com/myokoym/colorful_reading"
-  spec.license       = "MIT"
+  spec.license       = "GPLv2+"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) {|f| File.basename(f) }
