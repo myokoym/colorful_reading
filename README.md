@@ -1,4 +1,4 @@
-# ColorfulReading
+# ColorfulReading [![Gem Version](https://badge.fury.io/rb/colorful_reading.svg)](http://badge.fury.io/rb/colorful_reading)
 
 Colorize sentences by part of speech in English for CLI.
 
