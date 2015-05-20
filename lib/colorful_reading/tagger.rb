@@ -7,7 +7,9 @@ module ColorfulReading
     end
 
     def tagging(text)
-      @tagger.add_tags(text)
+      facing_spaces = text.scan(/\A\s+/).first || ""
+      tagged_text = @tagger.add_tags(text) || ""
+      facing_spaces + tagged_text
     end
   end
 end

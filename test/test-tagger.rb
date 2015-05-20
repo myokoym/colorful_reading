@@ -7,7 +7,13 @@ class TaggerTest < Test::Unit::TestCase
     @tagger = Tagger.new
   end
 
-  def test_tagging
-    assert_equal("<nnp>Ruby</nnp>", @tagger.tagging("Ruby"))
+  class TaggingTest < self
+    def test_nnp
+      assert_equal("<nnp>Ruby</nnp>", @tagger.tagging("Ruby"))
+    end
+
+    def test_facing_spaces
+      assert_equal(" <nnp>Ruby</nnp>", @tagger.tagging(" Ruby"))
+    end
   end
 end
